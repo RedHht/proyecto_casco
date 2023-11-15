@@ -3,7 +3,7 @@
 
 enum AudioDirection {LEFT, RIGHT, FRONT};
 
-void initializeAudio(char* device_name);
+void initializeAudio();
 void audioAlert(AudioDirection direction);
 
 #endif //GORRA_SONIDO_H

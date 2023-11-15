@@ -19,7 +19,7 @@ float getDistance(UltraSounds ultra_sound) {
     setPins(ultra_sound);
     configurePins();
     // Set up the signal
-    digitalWrite(trig_pin, LOW);
+        digitalWrite(trig_pin, LOW);
     delayMicroseconds(2);
     // Create a 10 µs impulse
     digitalWrite(trig_pin, HIGH);
